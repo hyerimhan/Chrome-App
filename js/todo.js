@@ -1,5 +1,5 @@
 const toDoForm = document.querySelector("#todo-form");
-const toDoInput = toDoForm.querySelector("input");
+// const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.querySelector("#todo-list");
 
 const TODOS_KEY = "todos";
@@ -44,7 +44,7 @@ function handleToDoSubmit(e) {
   saveToDos();
 }
 
-toDoForm.addEventListener("submit", handleToDoSubmit);
+// toDoForm.addEventListener("submit", handleToDoSubmit);
 
 const savedToDos = localStorage.getItem(TODOS_KEY);
 
